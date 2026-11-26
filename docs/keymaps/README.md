@@ -8,7 +8,10 @@ puts `1`–`3`, `4`–`6` (on home-row mods) and `7`–`0` on the left hand with
 arrows on I/J/K/L. Like the latest Toucan, A and backslash type immediately
 (no double-tap Caps Word), Enter+Backspace together starts Caps Word, the
 Tab/Shift thumb is hold-preferred so fast Shift chords register, and letter
-combos use a 21ms timeout. The maintenance layer puts Bluetooth clear on K.
+combos use a 21ms timeout. Every symbol combo works on every layer and ignores
+Shift. The bracket combos match v2 below; the rest sit on the outer columns by
+priority: `A+S`/`L+\` give `` ` ``/`~`, `Z+X`/`./` give `"`/`'`,
+`S+D`/`K+L` give `:`/`;`, `W+E`/`I+O` give `_`/`+`, and `X+C`/`,+.` give `-`/`=`. The maintenance layer puts Bluetooth clear on K.
 
 These are Totemist adaptations of the two Toucan keymap experiments. Both keep
 the Escape combos and maintenance layer. V2 uses Toucan commit `4d3364d`'s
